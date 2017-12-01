@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:weightSum="17"
+    tools:context="com.example.test.MainActivity" >
+
+    <!-- 第一行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/img_bg"
+            android:src="@drawable/img1" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img2" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img3" />
+    </LinearLayout>
+    <!-- 第二行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="70dp"
+            android:src="@drawable/img8" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="70dp"
+            android:src="@drawable/img4" />
+    </LinearLayout>
+
+    <!-- 第三行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img7" />
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img6" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img5" />
+    </LinearLayout>
+
+    <!-- 第四行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="喵喵喵？"
+            android:textColor="#f00"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- 第五行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f00"
+            android:onClick="btnBet"
+            android:text="下注"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0f0"
+            android:onClick="btnStart"
+            android:text="开始"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- 第六行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" >
+
+        <TextView
+            android:id="@+id/tv_coin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0ff"
+            android:gravity="center"
+            android:text="软妹币：10000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

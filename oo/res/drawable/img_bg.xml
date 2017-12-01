@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 描述选中图片背景 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- padding 内边距 -->
+    <padding android:left="8dp" android:right="8dp"
+             android:top="8dp"  android:bottom="8dp"/>
+    <!-- SOLID填充 -->
+    <solid android:color="#ff0000" />
+    
+    <!-- stroke描边 -->
+    <stroke android:width="2dp" android:color="#ffff00"/>
+    
+    <!-- CORNER圆角 -->
+    <corners android:radius="6dp"/>   
+</shape>
